@@ -2,7 +2,6 @@ package com.mycompany.store.web.rest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.hasItems;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -12,7 +11,6 @@ import com.mycompany.store.domain.User;
 import com.mycompany.store.repository.UserRepository;
 import com.mycompany.store.security.AuthoritiesConstants;
 import com.mycompany.store.service.dto.AdminUserDTO;
-import com.mycompany.store.service.dto.UserDTO;
 import com.mycompany.store.service.mapper.UserMapper;
 import com.mycompany.store.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

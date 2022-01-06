@@ -14,7 +14,6 @@ import com.mycompany.store.security.AuthoritiesConstants;
 import com.mycompany.store.service.UserService;
 import com.mycompany.store.service.dto.AdminUserDTO;
 import com.mycompany.store.service.dto.PasswordChangeDTO;
-import com.mycompany.store.service.dto.UserDTO;
 import com.mycompany.store.web.rest.vm.KeyAndPasswordVM;
 import com.mycompany.store.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

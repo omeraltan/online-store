@@ -7,6 +7,5 @@ import org.springframework.stereotype.Repository;
 /**
  * Spring Data SQL repository for the Invoice entity.
  */
-@SuppressWarnings("unused")
 @Repository
 public interface InvoiceRepository extends JpaRepository<Invoice, Long> {}

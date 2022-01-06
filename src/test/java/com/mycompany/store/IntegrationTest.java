@@ -1,6 +1,5 @@
 package com.mycompany.store;
 
-import com.mycompany.store.StoreApp;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
