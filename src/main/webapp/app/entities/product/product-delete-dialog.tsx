@@ -41,7 +41,7 @@ export const ProductDeleteDialog = (props: RouteComponentProps<{ id: string }>) 
       </ModalHeader>
       <ModalBody id="storeApp.product.delete.question">
         <Translate contentKey="storeApp.product.delete.question" interpolate={{ id: productEntity.id }}>
-          Are you sure you want to delete this Product?
+          Are you sure you want to delete this Product? Haa
         </Translate>
       </ModalBody>
       <ModalFooter>

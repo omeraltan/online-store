@@ -99,7 +99,7 @@ export const Product = (props: RouteComponentProps<{ url: string }>) => {
         {productList && productList.length > 0 ? (
           <Table responsive>
             <thead>
-              <tr>
+              <tr style={{ fontSize: 12 }}>
                 <th className="hand" onClick={sort('id')}>
                   <Translate contentKey="storeApp.product.id">ID</Translate> <FontAwesomeIcon icon="sort" />
                 </th>

@@ -2,28 +2,28 @@
   "storeApp": {
     "product": {
       "home": {
-        "title": "Products",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Product",
-        "createOrEditLabel": "Create or edit a Product",
-        "notFound": "No Products found"
+        "title": "Ürünler",
+        "refreshListLabel": "Listeyi Yenile",
+        "createLabel": "Yeni bir ürün oluştur",
+        "createOrEditLabel": "Ürün Oluştur veya Düzenle",
+        "notFound": "Ürün bulunamadı"
       },
-      "created": "A new Product is created with identifier {{ param }}",
-      "updated": "A Product is updated with identifier {{ param }}",
-      "deleted": "A Product is deleted with identifier {{ param }}",
+      "created": "{{ param }} numaralı yeni biri ürün oluşturuldu.",
+      "updated": "{{ param }} numaralı ürün güncellendi.",
+      "deleted": "{{ param }} numaralı ürün silindi.",
       "delete": {
-        "question": "Are you sure you want to delete Product {{ id }}?"
+        "question": "{{ id }} numaralı ürünü silmek istediğinize emin misiniz?"
       },
       "detail": {
-        "title": "Product"
+        "title": "Ürün"
       },
-      "id": "ID",
-      "name": "Name",
-      "description": "Description",
-      "price": "Price",
+      "id": "Numara",
+      "name": "İsim",
+      "description": "Tanım",
+      "price": "Değer",
       "beden": "Beden",
-      "image": "Image",
-      "productCategory": "Product Category"
+      "image": "Fotoğraf",
+      "productCategory": "Ürün Kategorisi"
     }
   }
 }
